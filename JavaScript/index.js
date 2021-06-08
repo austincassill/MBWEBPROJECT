@@ -12,3 +12,9 @@ function toggle(id) {
         
     }
 }
+
+function morph(id) {
+    var e = document.getElementById(id);
+    e.textContent = "Now I am comic sans";
+    e.style.fontFamily = "Comic Sans MS";
+}
